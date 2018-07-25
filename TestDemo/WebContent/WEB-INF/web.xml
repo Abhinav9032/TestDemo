@@ -3,5 +3,5 @@
   <display-name>TestDemo</display-name>
   <welcome-file-list>
     <welcome-file>html/index.html</welcome-file>
-  </welcome-file-list>
+    </welcome-file-list>
 </web-app>
