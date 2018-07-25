@@ -3,11 +3,11 @@ body {
 	margin: 0;
 	background: url(../images/loginPageBackground.jpg);
 	background-repeat: no-repeat;
-	background-size: auto 100vh;
+	background-size: cover;
 }
 
 body img {
-	height: 100vh;
+	
 }
 
 header {
@@ -273,9 +273,95 @@ text-decoration:underline;
 		width:99%;
 		height:54vh;
 		border:1px solid white;
-		margin-top: 50px;
-		
-	
-	
+		margin-top: 50px;	
 	}
+	
+	
+.info-box-animated{
+	
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap:1em;
+    
+}
+.Box{
+	border-radius:50%;
+	margin-left:10%;
+	margin-top:20px;
+	height:350px;
+	background-color: rgba(255, 255, 255, 0.6);
+	overflow:hidden;
+
+}
+.box1{
+	max-height:350px;
+	background-image:url("../images/160.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+	
+}
+
+.box2{
+	max-height:350px;
+	background-image:url("../images/157.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+	
+}
+
+.box3{
+	max-height:350px;
+	background-image:url("../images/154.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+	
+}
+
+
+
+.box1:hover , .box2:hover , .box3:hover {
+
+	animation:reshape 300ms ease-in 1;
+	animation-fill-mode: forwards;
+	
+} 
+
+
+@keyframes reshape {
+	from{
+	border-radius:50%;
+	}
+	to{
+	border-radius:5%;
+	}
+}
+
+.Box:hover .box-text{
+	display:block;
+}
+
+.box-text {
+	display:none;
+	text-align: center;
+	margin-top:205px;
+	
+}
+
+
+
+#footer{
+	margin-top:3px;
+}
+#footer p{
+    height:40px;
+    margin: 0 0 0 0;   
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 200;
+    background-color: #e8491d;
+    color:#fff;
+    font-size: 14px;
 }
