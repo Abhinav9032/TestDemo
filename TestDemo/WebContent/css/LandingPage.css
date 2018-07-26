@@ -1,9 +1,10 @@
 body {
 	padding: 0;
 	margin: 0;
-	background: url(../images/loginPageBackground.jpg);
+	background: url(../images/139.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position:center;
 }
 
 body img {
@@ -209,6 +210,15 @@ text-decoration:underline;
 	
 }
 /* After HEADER  <!-- ################################################################## --> */
+
+.SlideShowBox{
+		background-color: rgba(255, 255, 255, 0.6);
+		width:99%;
+		height:54vh;
+		border:1px solid white;
+		margin-top: 10%;	
+	}
+	
 .WhirlpoolDropDownContainer {
 	
 	margin-top:2px;
@@ -268,26 +278,21 @@ text-decoration:underline;
 }
 
 
-.SlideShowBox{
-		background-color: rgba(255, 255, 255, 0.6);
-		width:99%;
-		height:54vh;
-		border:1px solid white;
-		margin-top: 50px;	
-	}
-	
+
 	
 .info-box-animated{
-	
+	max-height:400px;
+	margin:50px 0 50px 0;
+	padding:30px;
     display: grid;
     grid-template-columns: 30% 30% 30%;
     grid-gap:1em;
+	overflow:hidden;
     
 }
 .Box{
 	border-radius:50%;
 	margin-left:10%;
-	margin-top:20px;
 	height:350px;
 	background-color: rgba(255, 255, 255, 0.6);
 	overflow:hidden;
@@ -336,6 +341,7 @@ text-decoration:underline;
 	}
 	to{
 	border-radius:5%;
+	border: 10px solid #b4b4b4;
 	}
 }
 
