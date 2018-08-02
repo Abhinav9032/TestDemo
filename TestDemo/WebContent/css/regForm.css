@@ -7,7 +7,10 @@ body{
 	background-repeat: no-repeat;
 	
 }
-
+.homePageIcon a img{
+	width:80px;
+	height:80px;
+}
 h1{
 	
 	font-family: sans-serif;

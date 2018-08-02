@@ -228,7 +228,7 @@ text-decoration:underline;
 	width:400px;
 	border:1px solid white;
 	position:relative;
-	animation: slider 20s cubic-bezier(0.5, 0.49, 0.74, 0.82) infinite;
+	animation: slider 10s cubic-bezier(0.5, 0.49, 0.74, 0.82) infinite;
 	
 }	
 
@@ -281,7 +281,7 @@ text-decoration:underline;
 
 	
 .info-box-animated{
-	max-height:400px;
+	height:400px;
 	margin:50px 0 50px 0;
 	padding:30px;
     display: grid;
