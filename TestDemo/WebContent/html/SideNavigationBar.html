@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="../css/NavigationBar.css">
+        <script>
+            function toggleHamburger(){
+            var a=document.getElementById("Aside");
+                console.log(a);
+              a.classList.toggle('active');  
+                var b=document.getElementById("Main-content");
+            console.log(b);          
+            b.classList.toggle('active');  }
+        </script>
+    </head>
+    <body>
+            <div class="Title-bar">
+                <h1>Title</h1>
+            </div>
+        
+            <div class="Article-box">
+                
+                <div id="Aside">
+                    
+                    
+                    <div class="menu-items">
+                        <ul>
+                            <li><a href="AnimationEffect.html">Home</a></li>
+                            <li><a href="#">Options</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        
+                        </ul>
+                    </div>
+                    <div class="Hamburger-icon" onclick=toggleHamburger()>
+                        <span class="dash"></span>
+                        <span class="dash"></span>
+                        <span class="dash"></span>
+                        <span class="dash"></span>
+                    </div>
+                
+                </div>
+                
+                <div id="Main-content">
+                    
+                    <h1>Add some content to be tested here .........</h1>
+                
+                </div>       
+        
+            </div>
+            
+            <div class="footer">
+                <p>Copyright &copy; 2018</p>
+            </div>
+    
+    </body>
+</html>
