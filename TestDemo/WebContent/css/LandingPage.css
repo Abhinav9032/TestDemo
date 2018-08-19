@@ -142,9 +142,10 @@ text-decoration:underline;
  
  
  .DropDownMenu{
+     display:none;
     margin-right:40%;
    	margin-left:8%;
-    display: grid;
+    
     grid-template-columns: 30% 30% 30%;
     
  
