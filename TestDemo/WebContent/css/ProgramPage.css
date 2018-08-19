@@ -92,15 +92,12 @@ body{
     
 }
 .graph1Year , .graph2Year{
-    
+
     font-family: sans-serif;
     font-size: 35px;    
     color:darkorange;
     padding:0;
     text-decoration: underline;
-    margin:0;
-}
-.graph1Year{
     margin-left: 77px;
 }
 .graph2Year{
@@ -120,9 +117,11 @@ body{
 
 .BarGraphs{
     
-    display: grid;
+      display: grid;
     grid-template-columns: 15% 15% 15% 15%;
     grid-gap: 2em;
+    /* position: absolute; */
+    /* margin-top: 50px; */
     margin-left: 50px;
     min-height: 380px;
     width: 300px;
@@ -131,7 +130,7 @@ body{
     border-bottom: 3px solid black;
     border-left: 3px solid black;
     padding-left: 20px;
-    margin-bottom: 5px;
+    /* margin-bottom: 20px; */
     
 }
 
@@ -224,7 +223,7 @@ body{
     padding-left: 20px;
     overflow:hidden;
     
-    margin-bottom: 5px;
+    /* margin-bottom: 20px; */
     
 }
 
